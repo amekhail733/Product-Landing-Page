@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <title>Buffalo Chicken Ice Cream</title>
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+    <!-- Nav bar -->
+    <nav>
+        <a href="#">
+            <img src="BufChkCream.png" id="navLogo">
+        </a>
+        <li class="navLinks">
+            <a href="#PrDs"><button id="navLink">Avaliablity</button></a>
+            <a href="#YT"><button id="navLink">Commercial</button></a>
+            <a href="#"><button id="navLink">Variations</button></a>
+        </li>
+    </nav>
+    <!-- Header -->
+    <header>
+        <img src="header.jpg" id="headImg">
+    </header>
+    <!-- Email Form -->
+    <div class="formDiv">
+        <form method="post" action="https://www.example.com/email-submit" target="_blank">
+            <h3>Enter your email to learn more:</h3>
+            <input type="email" placeholder="enter your email" required><button onclick="subEmail(e)">Submit</button>
+        </form>
+    </div>
+    <!-- Descriptions -->
+    <div class="prodDesc" id="PrDs">
+        <div id="desc">
+            <img src="milk.png" id="descImg">
+            <div>
+                <h3 id="descText">All Natrual Ingredients</h3>
+                <p id="descText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis ab quis perspiciatis molestiae! Illo unde dolorum reiciendis molestias incidunt, dignissimos repudiandae fuga, nam non magni eius est debitis iure recusandae? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis magnam rem dignissimos, impedit deleniti maxime reprehenderit, minima reiciendis saepe veniam iure laudantium fuga sunt, minus autem ipsa voluptas porro possimus?</p>
+            </div>
+        </div>         
+        <div id="desc">
+            <img src="earth.png" id="descImg">
+            <div>
+                <h3 id="descText">Avalible in all 50 states</h3>
+                <p id="descText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia repudiandae soluta aut ratione nulla, voluptas sint quos nesciunt voluptates dolor magni animi nihil alias incidunt ut enim tenetur ipsa! Eum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error ducimus sunt illo nihil? Minima rem veritatis repudiandae quod placeat, eum hic ratione consequuntur esse, assumenda cum excepturi? Similique, consectetur quasi?</p>
+            </div>
+        </div>         
+    </div>
+    <!-- Embeded YouTube Video -->
+    <div class="ytVid" id="YT">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/rc_wlk5y6Zs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id="ytVid"></iframe>
+    </div>
+    <!-- Ice Cream Variations -->
+    <div class="variations">
+        <div id="varCard">
+            <img src="tub.jpg" id="varImg">
+            <h4>Tub Verison</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum soluta dolore veniam totam omnis possimus ratione iusto sequi amet nulla quaerat qui sint architecto error laboriosam suscipit, nobis sunt aspernatur.</p>
+        </div>
+        <div id="varCard">
+            <img src="cup.jpg" id="varImg">
+            <h4>Cup Version</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam deleniti vitae provident optio perspiciatis iure a tempora blanditiis porro pariatur harum unde animi mollitia, et exercitationem, natus, praesentium voluptates vero.</p>
+        </div>
+        <div id="varCard">
+            <img src="cookieDough.jpg" id="varImg">
+            <h4>Cookie Dough Version</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium assumenda repellat animi sunt deleniti distinctio dolore ex earum consectetur, maiores voluptates, adipisci accusamus tempore temporibus magnam facere aut porro maxime!</p>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+       Amekha733 2023 &copy;
+       <a href="#">Contact us</a>
+    </footer>
+</body>
+<script>
+    function subEmail(e){
+        e.preventDefault();
+    }
+</script>
+</html>
